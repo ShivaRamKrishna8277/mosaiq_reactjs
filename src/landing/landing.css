@@ -1,0 +1,234 @@
+#landingNavbar{
+    background-color: var(--landingBG);
+}
+#landingNavbar .active, #mobileMenuUl .active{
+    color: var(--primaryColor) !important;
+}
+#landingNavbar .active::after{
+    transform: scale(1,1);
+}
+
+/* Nav Logo */
+#landingNavLogo{
+    width: 150px;
+    height: auto;
+}
+/* Nav Logo End */
+
+/* Nav Links */
+.navLinks{
+    font-weight: 500;
+    position: relative;
+}
+.navLinks::after{
+    position: absolute;
+    content: '';
+    background-color: var(--primaryColor);
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 1.5px;
+    border-radius: 2px;
+    transform: scale(0,1);
+    transition: transform 0.3s ease;
+}
+.navLinks:hover::after{
+    transform: scale(1,1);
+}
+.navLinks:hover{
+    color: var(--primaryColor) !important;
+}
+/* Nav Links End*/
+
+/* Nav Button */
+#navBtn{
+    background-color: var(--primaryColorDark);
+    color: var(--white);
+}
+/* Nav Button End */
+
+/* Mobile Menu */
+#mobileMenuUl li{
+    margin-bottom: 30px !important;
+    font-weight: 500;
+}
+#mobileMenuUl li:hover{
+    color: var(--primaryColor);
+}
+/* Mobile Menu End */
+
+/* Banner */
+.title{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+}
+/* Banner End */
+
+/* Categories */
+.section_title {
+    font-size: var(--sec_title_txt);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.section_title span {
+    font-size: 2.8rem;
+    color: var(--primaryColor);
+}
+.section_sub_title {
+    font-size: var(--small_txt);
+    opacity: .5;
+}
+.category_box {
+    margin: 0 auto;
+    width: 90%;
+    min-height: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.category_box:hover > .category_title{
+    color: var(--primaryColor);
+}
+.category_img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.category_title {
+    font-size: var(--small_txt);
+    opacity: .9;
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+@media(max-width:480px){
+    .categories_section .container-fluid{
+        padding: 0 15px !important;
+    }
+    .section_title{
+        font-size: 30px;
+    }
+    .section_title span{
+        font-size: 30px;
+    }
+    .category_box{
+        width: 90%;
+        min-height: 150px;
+        padding: 0 10px;
+    }
+    .category_img{
+        width: 50px;
+        height: 50px;
+    }
+}
+/* Categories End */
+
+/* CTA */
+.cta_img{
+    height: 250px;
+    width: auto;
+}
+.cta_title{
+    font-size: var(--sec_title_txt);
+    font-weight: 600;
+    line-height: 2.2rem;
+    width: 90%;
+    color: var(--ninehun);
+}
+.cta_title span{
+    color: #fff;
+}
+.cta_sub_title{
+    font-size: var(--small_txt);
+    color: white;
+    opacity: .6;
+}
+#explore_btn{
+    display: inline-block;
+    text-align: center;
+    color: var(--fivehun);
+    background-color: #fff;
+    padding: 5px 0;
+    width: 200px;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 12px;
+}
+@media(max-width:480px){
+    .cta_title{
+        margin-top: 30px;
+    }
+    .cta_img{
+        margin-top: 80px;
+    }
+}
+@media(max-width: 768px){
+    .cta_title{
+        margin-top: 30px;
+    }
+    .cta_img{
+        margin-top: 80px;
+    }
+}
+/* CTA End */
+
+/* Benefits */
+.sec_title{
+    font-size: var(--sec_title_txt);
+    font-weight: 600;
+    line-height: 2.2rem;
+}
+.sec_title span{
+    color: var(--primaryColor);
+    display: block;
+}
+.benefit_point{
+    margin-bottom: 15px;
+}
+.benefit_title_wrapper{
+    display: flex;
+    align-items: center;
+}
+.check_icon{
+    height: 20px;
+}
+.benefit_title{
+    margin: 0;
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.benefit_desc{
+    display: inline-block;
+    width: 90%;
+    margin-left: 25px;
+    opacity: .5;
+    margin-top: 5px;
+}
+#benefits_img{
+    height: 450px;
+    width: auto;
+    object-fit: contain;
+}
+@media(max-width: 768px){  
+    .benefits_section{
+        padding: 0px !important;
+    }  
+    .sec_title{
+        text-align: center;
+    }
+    .benefits_section ul{
+        width: 90%;
+        margin: auto;
+    }
+    #benefits_img{
+        width: 90%;
+    }
+}
+/* Benefits End */

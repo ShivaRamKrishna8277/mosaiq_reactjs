@@ -1,0 +1,35 @@
+.statusMessageWrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pendingMessage, #pendingIcon{
+    font-size: .95rem;
+    color: #FB6D2B !important;
+}
+
+.challengeDetails_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+}
+.challenge_detail{
+    display: flex;
+    align-items: top;
+}
+.challenge_detail span{
+    font-size: .8rem;
+    opacity: .5;
+    display: inline-block;
+    min-width: 100px;
+}
+.challenge_detail p, .challenge_detail a{
+    font-size: .9rem;
+}
+#challengeSubSolution {
+    width: 95%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,73 @@
+#leaderboardBanner{
+  width: 100%;
+  height: 200px;
+  background-color: #202020;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  *{
+    color: white !important;
+  }
+}
+.bannerText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bannerText .h2{
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.bannerText .h6{
+  font-weight: 400;
+  opacity: .5;
+  font-size: .8rem;
+  width: 90%;
+}
+.bannerImg{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+#leaderboardBannerImg{
+  height: 90%;
+  width: auto;
+  object-fit: contain;
+}
+
+.tableTitle{
+  font-size: 1.1rem;
+  color: black !important;
+}
+.leaderboardWrapper table{
+  min-width: 900px;
+}
+.leaderboardWrapper table thead tr th:first-child, .leaderboardWrapper table tbody tr td:first-child{
+  border-left: 1px solid #dee2e6 !important;
+}
+.leaderboardWrapper table thead tr th:last-child, .leaderboardWrapper table tbody tr td:last-child{
+  border-right: 1px solid #dee2e6 !important;
+}
+.leaderboardWrapper table thead tr th:first-child{
+  border-width: 2px !important;
+}
+.leaderboardWrapper table thead tr th{
+  transform: translateY(0px) !important;
+}
+.leaderboardWrapper table thead tr th:nth-child(2), .leaderboardWrapper table tbody tr th:nth-child(2), .leaderboardWrapper table tbody tr td:nth-child(2){
+  text-align: left !important;
+}
+.personalRankingRow th{
+  font-weight: 600 !important;
+  background-color: #ededed;
+}
+.personalRankingRow{
+  border-color: #ededed !important;
+}
+.leaderboardWrapper table tbody tr td{
+  height: 0px;
+}
+.leaderboardWrapper .rankingCol, .leaderboardWrapper .xpCol, .leaderboardWrapper .totalProblemsCol, .leaderboardWrapper .approvedCol,  .leaderboardWrapper .accuracyCol{
+  width: 15%;
+}

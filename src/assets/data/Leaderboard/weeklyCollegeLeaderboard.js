@@ -1,0 +1,30 @@
+const weeklyCollegeLeaderboard = [
+    { "name": "BITS Pilani", "xp": 171810, "problemsSolved": 290, "approvedProblems": 250, "accuracy": 87.5 },
+    { "name": "Amrita School of Engineering", "xp": 159071, "problemsSolved": 270, "approvedProblems": 230, "accuracy": 85.0 },
+    { "name": "Thapar University", "xp": 114612, "problemsSolved": 210, "approvedProblems": 190, "accuracy": 85.0 },
+    { "name": "Amity University", "xp": 86917, "problemsSolved": 160, "approvedProblems": 140, "accuracy": 87.5 },
+    { "name": "Chandigarh University", "xp": 81254, "problemsSolved": 150, "approvedProblems": 130, "accuracy": 86.0 },
+    { "name": "IIT Bombay", "xp": 90500, "problemsSolved": 175, "approvedProblems": 155, "accuracy": 89.0 },
+    { "name": "IIT Delhi", "xp": 89200, "problemsSolved": 170, "approvedProblems": 150, "accuracy": 88.8 },
+    { "name": "NIT Trichy", "xp": 79000, "problemsSolved": 160, "approvedProblems": 140, "accuracy": 87.0 },
+    { "name": "NIT Warangal", "xp": 75500, "problemsSolved": 150, "approvedProblems": 130, "accuracy": 86.5 },
+    { "name": "VIT University", "xp": 72500, "problemsSolved": 145, "approvedProblems": 125, "accuracy": 87.2 },
+    { "name": "Shiv Nadar University", "xp": 71000, "problemsSolved": 140, "approvedProblems": 120, "accuracy": 85.5 },
+    { "name": "IIIT Hyderabad", "xp": 70000, "problemsSolved": 135, "approvedProblems": 115, "accuracy": 85.0 },
+    { "name": "Delhi Technological University", "xp": 68500, "problemsSolved": 130, "approvedProblems": 110, "accuracy": 84.8 },
+    { "name": "Jadavpur University", "xp": 67000, "problemsSolved": 125, "approvedProblems": 105, "accuracy": 84.5 },
+    { "name": "Manipal Institute of Technology", "xp": 65500, "problemsSolved": 120, "approvedProblems": 100, "accuracy": 83.9 },
+    { "name": "Pune Institute of Computer Technology", "xp": 64000, "problemsSolved": 115, "approvedProblems": 95, "accuracy": 83.5 },
+    { "name": "Maharashtra Institute of Technology", "xp": 62500, "problemsSolved": 110, "approvedProblems": 90, "accuracy": 82.8 },
+    { "name": "Kalinga Institute of Industrial Technology", "xp": 61000, "problemsSolved": 105, "approvedProblems": 85, "accuracy": 82.5 },
+    { "name": "LPU Punjab", "xp": 59500, "problemsSolved": 100, "approvedProblems": 80, "accuracy": 81.7 },
+    { "name": "Amrita Vishwa Vidyapeetham", "xp": 58000, "problemsSolved": 95, "approvedProblems": 75, "accuracy": 81.2 },
+    { "name": "Sastra University", "xp": 56500, "problemsSolved": 90, "approvedProblems": 70, "accuracy": 80.5 },
+    { "name": "SRM Institute of Science and Technology", "xp": 55000, "problemsSolved": 85, "approvedProblems": 65, "accuracy": 79.9 },
+    { "name": "Sharda University", "xp": 53500, "problemsSolved": 80, "approvedProblems": 60, "accuracy": 78.5 },
+    { "name": "Rajasthan Technical University", "xp": 52000, "problemsSolved": 75, "approvedProblems": 55, "accuracy": 77.8 },
+    { "name": "Bharati Vidyapeeth", "xp": 50500, "problemsSolved": 70, "approvedProblems": 50, "accuracy": 76.9 },
+    { "name": "Rajiv Gandhi Proudyogiki Vishwavidyalaya", "xp": 49000, "problemsSolved": 65, "approvedProblems": 45, "accuracy": 75.5 }
+]
+
+export default weeklyCollegeLeaderboard;

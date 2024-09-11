@@ -1,0 +1,95 @@
+p{
+    margin-bottom: 0;
+}
+.allChallengesGrid{
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+@media (min-width:768px) {
+    .allChallengesGrid{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+.challenge_card{
+    padding: 10px;
+    color: var(--textColor);
+    border-radius: 5px;
+    min-height: 200px;
+    position: relative;
+    background-color: #fafafa;
+}
+.completed_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.card_category, .card_difficulty{
+    font-size: .6rem;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+.mobile_card_title{
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    color: var(--primaryColor) !important;
+}
+.mobile_card_desc{
+    font-size: .6rem;
+    margin: 5px 0 10px 0;
+}
+#card_PostedOn, #card_EndsOn{
+    font-size: .8rem;
+    font-weight: 500;
+}
+.card_view_more_btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.card_view_more_btn:hover{
+    color: var(--primaryColor);
+}
+.card_view_more_btn span{
+    font-size: .75rem;
+}
+.result_title{
+    font-size: .7rem;
+    opacity: .5;
+}
+.result_content{
+    font-size: .9rem;
+    font-weight: 500;
+    background-color: transparent !important;
+}
+.timeframe_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5%;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+}
+.timeframe_title{
+    font-size: 0.7rem;
+    opacity: .5;
+}
+.timeframe_content{
+    font-size: .9rem;
+}
+.timeframe_line{
+    flex-grow: 1;
+    height: 2px;
+    border-bottom: 1px dashed var(--textColor);
+    opacity: .5;
+}

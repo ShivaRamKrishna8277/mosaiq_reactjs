@@ -1,0 +1,73 @@
+.allChallengesTable{
+    min-width: 1000px;
+}
+@media (max-width:992px) {
+    .allChallengesContentSection:first-of-type{
+        width: 100% !important;
+        overflow: visible !important;
+        max-height: 95vh !important;
+    }
+    .allChallengesContentSection:nth-of-type(2){
+        width: 100% !important;
+    }
+    #searchBar{
+        width: 65% !important;
+    }
+    #searchBar input{
+        font-size: .8rem;
+    }
+}
+.allChallengesLeftHeader, .allChallengesLeftUtilityBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+hr{
+    border: none;
+    border-top: 1px solid #8d8d8d;
+}
+
+/* Categories Modal */
+#categoriesModal .modal-dialog{
+    max-width: 900px;
+}
+.categories_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+}
+.category_card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    border: 1px solid #ededed;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.category_card:hover{
+    border: 1px solid var(--primaryColor);
+}
+.category_card_img img{
+    width: 65px;
+    height: auto;
+    object-fit: contain;
+}
+.card_title{
+    font-size: .9rem;
+    color: var(--primaryColor) !important;
+    font-weight: 450;
+}
+.card_desc{
+    font-size: .6rem;
+    opacity: .5;
+    margin: 5px 0;
+}
+.card_total_challenges{
+    font-size: .6rem;
+    font-weight: 500;
+}
+.activeCategory{
+    border: 2px solid var(--primaryColor) !important;   
+}
+/* Categories Modal End */

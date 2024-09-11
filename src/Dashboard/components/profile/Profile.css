@@ -1,0 +1,74 @@
+#editIcon{
+    color: white !important;
+}
+@media (max-width:768px) {
+    #profileHeader{
+        align-items: start !important;
+    }
+}
+@media (max-width:992px) {
+    .profileContentSection{
+        width: 100% !important;
+    }
+}
+.profilePhotoSection, .badgeSection{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+@media (max-width:490px) {
+    .profilePhotoSection, .badgeSection{
+        flex-direction: column;
+    }
+    #profileContentLeft{
+        margin-bottom: 50px;
+    }
+    .badgeText {
+        width: 100% !important;
+    }
+    .profilePhotoBtns{
+        text-align: center;
+    }
+    #profilePhotoBtnsWrapper{
+        justify-content: center;
+    }
+}
+.badgePhotoWrapper{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #cbb1e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#badgePhoto{
+    width: 70%;
+    height: 70%;
+}
+.badgeTitle{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--primaryColor);
+    margin-bottom: .5rem;
+}
+.badgeProgressBarOuter{
+    width: 100%;
+    height: 8px;
+    border-radius: 2px;
+    overflow: hidden;
+    background-color: #EDEDED;
+}
+.badgeProgressBarInner{
+    height: 8px;
+    border-radius: 2px;
+    background-color: var(--primaryColor) !important;
+}
+.badgeProgressBarPoints p{
+    font-size: .8rem;
+    opacity: .5;
+}
+
+.socialLinkWrapper{
+    color: var(--text_clr);
+}

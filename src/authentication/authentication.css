@@ -1,0 +1,44 @@
+/* Global */
+.auth_container{
+    max-width: 450px;
+    padding: 0 20px !important;
+}
+.auth_logo{
+    width: 150px;
+    display: inline;
+    margin: 10px auto;
+}
+.auth_title{
+    font-size: var(--sec_title_txt);
+    font-weight: 600;
+    margin: 10px 0;
+}
+.auth_subtitle{
+    font-size: var(--small_txt);
+    opacity: .5;
+}
+.inputFields{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    outline: none !important;
+}
+.inputGroupIcons{
+    height: 20px;
+    width: 20px;
+}
+.inputFields{
+    box-shadow: none !important;
+}
+.linkText{
+    color: var(--primaryColor);
+    text-decoration: none;
+    cursor: pointer;
+}
+.linkText:hover{
+    text-decoration: underline;
+}
+/* Global End */
+
+/* Login */
+
+/* Login End */

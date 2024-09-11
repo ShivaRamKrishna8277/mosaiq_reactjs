@@ -1,0 +1,64 @@
+#navLogo{
+    max-width: 100px;
+    height: auto;
+}
+.dropdown-menu li{
+    margin: 10px 0;
+}
+.nav-link{
+    border: 1px solid #F0F0F0;
+    min-width: 100px;
+    text-align: center;
+}
+.mobileNavLink{
+    text-decoration: none !important;
+    color: var(--textColor) !important;
+}
+.nav-link:hover, .dropdown-item:hover{
+    color: #000;
+}
+#mobileNavList li a p{
+    color: rgb(8, 8, 92) !important;
+    margin: 10px 0 0 0 !important;
+    font-weight: 450;
+    font-size: .7rem;
+}
+.activeLink, .activeLinkMobile, .activeLinkMobile a p{
+    color: var(--primaryColor) !important;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 2px;
+    border: 1px solid #e3e3e3;
+}
+.activeLinkMobile, .activeLinkMobile a p{
+    border: none !important;
+}
+.dropdown-item:focus {
+    background-color: transparent;
+    color: var(--primaryColor);
+}
+
+#mobileNavProfile{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+#mobileNavProfile ul li{
+    padding: 0;
+    border-bottom: none;
+}
+#mobileNavProfile ul li:first-child{
+    font-size: 1.2rem;
+}
+#mobileNavProfile ul li:nth-child(2){
+    font-size: .7rem;
+    opacity: .7;
+}
+#mobileNavList li a{
+    text-decoration: none;
+    color: var(--textColor);
+}
+#mobileNavList li{
+    border-bottom: 1px solid #f5f5f5;
+    padding: 15px 0;    
+}

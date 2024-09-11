@@ -1,0 +1,104 @@
+th, td{
+    color: var(--textColor) !important;
+    font-weight: 400 !important;
+    vertical-align: middle;
+    text-align: center;
+}
+th{
+    font-size: .85rem;
+    background-color: white;
+    transform: translateY(-1px);
+}
+th{
+    border-top: 2px solid #dee2e6 !important;
+}
+table thead tr th div{
+    opacity: .5;
+}
+td{
+    font-size: 13px;
+    height: 60px;
+    padding: 10px !important;
+}
+table thead tr th:first-child, table tbody tr td:first-child{
+    border-left: none;
+}
+table thead tr th:last-child, table tbody tr td:last-child{
+    border-right: none;
+}
+.tenPercentCol{
+    width: 10% !important;
+    text-align: center;
+}
+.titleCol, .descCol{
+    text-align: start !important;
+}
+.titleCol{
+    width: 20%;
+}
+.actionCol{
+    cursor: pointer;
+}
+.actionCol:hover{
+    color: var(--primaryColor) !important;
+}
+
+/* Category Designs */
+.categoryContent{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 10px;
+    font-weight: normal;
+}
+.SEO{
+    color: #ff8000 !important;
+    background-color: #e185282c;
+}
+.Programming{
+    color: #0066ff !important;
+    background-color: #0066ff2c;
+}
+.Writing{
+    color: #009f03 !important;
+    background-color: #00ff002c;
+}
+.Video{
+    color: #aa00ff !important;
+    background-color: #aa00ff2c;
+}
+.Graphic{
+    color: #01bcfb !important;
+    background-color: #01bcfb2c;
+}
+.Data{
+    color: #ff0077 !important;
+    background-color: #ff00772c;
+}
+.Music{
+    color: #0000ff !important;
+    background-color: #0000ff2c;
+}
+.Animation{
+    color: #FF3333 !important;
+    background-color: #FF33332c;
+}
+/* Category Designs End */
+
+/* Difficulty Designs */
+.Easy, .Approved{
+    color: var(--primaryColor) !important;
+    background-color: #1DB4712c !important;
+}
+.Medium{
+    color: #FB6D2B !important;
+    background-color: #ff51002c !important;
+}
+.Hard, .Rejected{
+    color: #FF0000 !important;
+    background-color: #ff000049 !important;
+}
+/* Difficulty Designs End */

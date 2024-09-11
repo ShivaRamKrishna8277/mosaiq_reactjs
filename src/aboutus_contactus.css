@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.sectionTitleNoto{
+    font-family: "Noto Serif", serif !important;
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--black) !important;
+    margin-bottom: 10px;
+}
+.sectionContentNoto{
+    font-family: "Noto Serif", serif !important;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#founder_photo{
+    width: 100%;
+}
+
+#founder_name{
+    color: var(--primaryColor) !important;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#founder_qualification{
+    opacity: .5;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#about_founder{
+    margin-bottom: 20px;
+}
+#quote{
+    font-size: .8rem;
+    opacity: .7;
+}
+
+/* contact us form */
+#contact_us_form{
+    margin-top: 45px;
+}
+.form_input{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #E1E1E1;
+    border-radius: 5px;
+    outline: none;
+    font-size: .95rem;
+    background-color: white !important;
+}
+#submit_btn{
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: var(--primaryColor) !important;
+    color: white;
+    margin-top: 15px;
+    min-width: 100px;
+}
+
+/* Address */
+.other_sub_title {
+    font-size: .85rem;
+    opacity: .5;
+}
+.social_media_wrapper{
+    background-color: var(--white);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.social_media_wrapper a{
+    color: var(--black) !important;
+}

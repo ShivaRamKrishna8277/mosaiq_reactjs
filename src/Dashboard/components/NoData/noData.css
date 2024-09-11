@@ -1,0 +1,9 @@
+.noDataImg{
+    width: 170px;
+    height: auto;
+    margin: 0 auto;
+}
+.noDataText{
+    font-size: .9rem;
+    opacity: .5;
+}

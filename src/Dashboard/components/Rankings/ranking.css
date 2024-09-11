@@ -1,0 +1,31 @@
+.rankingTable{
+    min-width: 250px;
+}
+.rankingCol{
+    width: 15%;
+}
+.nameCol {
+    text-align: start;
+}
+.nameCol span {
+    display: block;
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: auto 0;
+}
+.xpCol{
+    width: 20%;
+}
+.rankingTable thead tr th{
+    font-weight: 500 !important;
+    opacity: .5;
+    border-top: 0px !important;
+}
+.rankingTable th, .rankingTable td{
+    height: 0px !important;
+}
+.viewLeaderboardLink{
+    font-size: .7rem;
+}
