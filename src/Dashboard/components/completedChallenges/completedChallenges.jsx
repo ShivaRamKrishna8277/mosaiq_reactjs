@@ -45,7 +45,7 @@ export default function CompletedChallenges() {
   };
   useEffect(() => {
     fetchCompletedChallenges();
-  }, []);
+  }, [fetchCompletedChallenges]);
 
   // Search Filter
   const [searchQuery, setSearchQuery] = useState("");

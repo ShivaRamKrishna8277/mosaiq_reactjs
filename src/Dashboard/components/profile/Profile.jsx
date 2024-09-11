@@ -72,10 +72,9 @@ export default function Profile() {
       }
     });
   };
-
   useEffect(() => {
     fetchUserData();
-  }, []);
+  }, [fetchUserData]);
   // To fetch user data - End
 
   // To update new details

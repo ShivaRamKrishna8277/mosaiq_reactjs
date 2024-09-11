@@ -78,7 +78,7 @@ export default function AllChallenges() {
   };
   useEffect(() => {
     fetchChallenges();
-  }, []);
+  }, [fetchChallenges]);
 
   // Search and Categories filter.
   const [searchQuery, setSearchQuery] = useState("");

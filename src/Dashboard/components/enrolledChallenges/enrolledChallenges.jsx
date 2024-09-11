@@ -59,7 +59,7 @@ export default function EnrolledChallenges() {
   };
   useEffect(() => {
     fetchEnrolledChallenges();
-  }, []);
+  }, [fetchEnrolledChallenges]);
 
   // Submit Solution
   const [isSubmitting, setIsSubmitting] = useState(false);

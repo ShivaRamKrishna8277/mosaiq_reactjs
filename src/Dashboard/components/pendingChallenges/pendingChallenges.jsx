@@ -48,7 +48,7 @@ export default function PendingChallenges() {
   }
   useEffect(() => {
     fetchPendingChallenges();
-  }, []);
+  }, [fetchPendingChallenges]);
 
   const filteredChallenges = pendingChallengesData.filter((challenge) => {
     const title = challenge.title || "";
