@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import "./PendingModal.css";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
 
 export default function PendingModal({ show, onHide, challenge }) {
   if (!challenge) {
@@ -73,7 +72,11 @@ export default function PendingModal({ show, onHide, challenge }) {
               <span className="d-flex align-items-center">
                 Solution Link :{" "}
               </span>
-              <a href={`https://${challenge.Link}`} target="_blank">
+              <a
+                href={`https://${challenge.Link}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {challenge.Link}
               </a>
             </li>

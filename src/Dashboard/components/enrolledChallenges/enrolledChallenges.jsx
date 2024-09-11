@@ -16,7 +16,7 @@ import AllChallengesGrid from "../allChallenges/AllChallengesGrid";
 import NoData from "../NoData/noData";
 import DetailsModal from "../detailsModal/DetailsModal";
 import { auth, db } from "../../../firebase";
-import { get, push, ref, remove, set } from "firebase/database";
+import { get, ref, remove, set } from "firebase/database";
 import ResultModal from "../resultModal/ResultModal";
 
 export default function EnrolledChallenges() {

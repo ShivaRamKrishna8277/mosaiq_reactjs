@@ -105,9 +105,9 @@ export default function Contactus() {
             <div className="row g-0 justify-content-between">
               <div className="col-lg-7 col-12 mb-4 mb-lg-0 rounded-3 overflow-hidden">
                 <iframe
+                  title="Office Address in Maps"
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3828.2540701999565!2d77.36108814620404!3d16.361014877032652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1721050058836!5m2!1sen!2sin"
                   style={{
-                    border: "0",
                     width: "100%",
                     minHeight: "400px",
                     height: "100%",
